@@ -13,15 +13,15 @@
     <!-- Facebook and Twitter -->
 
     <meta property="og:type" content="website"/>
-    <meta property="og:title" content="HACKAHOLD'EM - Hackathon Inspired by Texas Hold'em"/>
-    <meta property="og:site_name" content="HACKAHOLD'EM - Hackathon Inspired by Texas Hold'em"/>
-    <meta property="og:description" content="A hackathon with a difference! This fun and unusual Hackathon is inspired by texas hold'em"/>
+    <meta property="og:title" content="HACKAHOLD'EM - Gamified Hackathon Inspired by Texas Hold'em"/>
+    <meta property="og:site_name" content="HACKAHOLD'EM - Gamified Hackathon Inspired by Texas Hold'em"/>
+    <meta property="og:description" content="A gamified hackathon, by the community, for the community, inspired by texas hold'em"/>
     <meta property="og:url" content="http://www.hackaholdem.com/"/>
     <meta property="og:image" content="http://www.hackaholdem.com/img/hackaholdem-ogimg.jpg"/>
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="HACKAHOLD'EM - Hackathon Inspired by Texas Hold'em">
-    <meta name="twitter:description" content="A hackathon with a difference! This fun and unusual Hackathon is inspired by texas hold'em">
+    <meta name="twitter:title" content="HACKAHOLD'EM - Gamified Hackathon Inspired by Texas Hold'em">
+    <meta name="twitter:description" content="A gamified hackathon, by the community, for the community, inspired by texas hold'em">
     <meta name="twitter:creator" content="Hackahold'em">
     <meta name="twitter:domain" content="www.hackaholdem.com">
     <meta name="twitter:image:src" content="http://www.hackaholdem.com/img/hackaholdem-ogimg.jpg">
@@ -36,6 +36,17 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111017751-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-111017751-1');
+    </script>
+
   </head>
 
   <body>
