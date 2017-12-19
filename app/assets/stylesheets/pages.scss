@@ -629,6 +629,14 @@ a:hover {
 	width: 40px;
 }
 
+@media screen and (max-width: 360px) {
+
+	#footer {
+		margin-top: 100px;
+	}
+
+}
+
 
 // social button
 
