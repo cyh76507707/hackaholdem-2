@@ -417,6 +417,12 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 /* Below Boxes */
 
+#participants {
+	background-color: black;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 #warning {
 	background-color: #13151e;
 	margin-top: 50px;
@@ -513,6 +519,15 @@ a:hover {
 
 #reg-content-area {
 	transform: translateY(20%);
+	padding: 20px;
+}
+
+@media screen and (max-width: 360px) {
+
+	#reg-content-area {
+		transform: translateY(10%);
+	}
+
 }
 
 #reg-text {
