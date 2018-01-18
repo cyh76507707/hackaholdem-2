@@ -558,6 +558,37 @@ a:hover {
 	}
 }
 
+// Themes
+
+.theme-heading {
+	font-size: 1.5em;
+	color: #E6C591;
+	font-family: 'Spectral SC', serif;
+}
+
+.theme-text {
+	font-size: 1.1em;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.3;
+	font-weight: 300;
+	color: #9B9B9B;
+}
+
+@media screen and (max-width: 480px) {
+	.theme-heading {
+		font-size: 1.4em;
+		margin-top: 10px;
+	}
+	.theme-text {
+		font-size: 1.0em;
+		margin-top: 14px;
+	}
+}
+
+
+
+
+
 // Sonw Effect
 
 #snow {
