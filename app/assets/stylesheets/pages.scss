@@ -417,6 +417,15 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 /* Below Boxes */
 
+#slack {
+	height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
 #participants {
 	background-color: black;
 	margin-top: 30px;
@@ -425,7 +434,6 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 
 #warning {
 	background-color: #13151e;
-	margin-top: 50px;
 }
 
 .icon-symbol-area {
