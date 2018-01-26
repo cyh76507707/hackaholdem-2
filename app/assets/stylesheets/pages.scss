@@ -527,6 +527,21 @@ a:hover {
 	text-decoration: none;
 }
 
+#organiser {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 115%;
+	background-position: center;
+}
+
+@media screen and (max-width: 460px) {
+
+	#organiser {
+		height: 200%;
+	}
+
+}
+
 #register {
 	background-color: #black;
 	height: 100%;
